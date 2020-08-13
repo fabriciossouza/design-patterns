@@ -1,0 +1,9 @@
+bin/
+.classpath
+.idea/
+.project
+.settings/
+Strategy.iml
+target/
+sort-algorithms-strategy.iml
+
