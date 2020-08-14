@@ -4,13 +4,13 @@ O Stra­tegy é um pa­drão de pro­jeto com­por­ta­men­tal que per­mite q
 
 ### Ana­lo­gia com o mundo real
 
- ![](/image/image1.png) 
+ ![](/strategy/sort-algorithms-strategy/image/image1.png) 
 
 Ima­gine que você tem que che­gar ao ae­ro­porto. Você pode pegar um ôni­bus, pedir um táxi, ou subir em sua bi­ci­cleta. Essas são suas es­tra­té­gias de trans­porte. Você pode es­co­lher uma das es­tra­té­gias de­pen­dendo de fa­to­res como or­ça­mento
 
 ### Es­tru­tura
 
- ![](/image/image2.png) 
+ ![](/strategy/sort-algorithms-strategy/image/image2.png) 
  
 1. O Con­texto man­tém uma re­fe­rên­cia para uma das es­tra­té­gias con­cre­tas e se co­mu­nica com esse ob­jeto atra­vés da in­ter­face da estratégia . 
 
