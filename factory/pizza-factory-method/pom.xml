@@ -12,7 +12,7 @@
     </parent>
 
     <groupId>br.com.semcodar</groupId>
-    <artifactId>pizza-factory</artifactId>
+    <artifactId>pizza-factory-method</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
