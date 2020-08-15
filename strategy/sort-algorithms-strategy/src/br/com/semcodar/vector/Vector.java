@@ -7,9 +7,10 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Vector {
 
+	private @Setter  int[] array;
 	private @Setter  Algorithm algorithm;
 
-	public void sort() {
-		algorithm.sort();
+	public int[] sort() {
+		return algorithm.sort(array);
 	}
 }
