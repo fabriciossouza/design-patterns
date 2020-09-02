@@ -42,8 +42,7 @@ public class HotDrinkMachine {
         }
 
         // option 2: find all implementors of IHotDrinkFactory
-        var types = new Reflections(PACKAGE_FACTORY)
-                .getSubTypesOf(IHotDrinkFactory.class);
+        var types = new Reflections(PACKAGE_FACTORY).getSubTypesOf(IHotDrinkFactory.class);
 
         for (Class<? extends IHotDrinkFactory> type : types) {
 
